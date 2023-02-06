@@ -1,0 +1,96 @@
+	*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+	.ta{
+		padding:10px 20px;
+	}
+	.ta table,td, th{
+		border:1px solid black;
+		border-collapse:collapse;
+		width:100%;
+	}
+	.ta td{
+		padding:5px 75px;
+		background-color:lightgray;
+		
+	}
+	.ta th{
+		height:50px;
+		background-color:gray;
+	}
+	.ta th.thtime {
+		vertical-align:bottom;
+		color:darkred;
+	}
+	.thtime:hover{
+		font-size:20px;
+		color:red;
+		vertical-align:middle;
+		background-color:lightgray;
+		cursor:n-resize;
+		padding:35px 5px;
+	}
+	.thday:hover{
+		font-size:25px;
+		background-color:lightgray;
+		cursor:w-resize;
+		padding:5px 15px;
+	}
+	.ta td:hover{
+		background-color:gray;
+		font-size:20px;
+		cursor:help;
+	}
+	.pet{
+		text-decoration:none;
+		background-color:gray;
+	}
+	.pet:hover{
+		cursor:wait;
+		text-decoration:none;
+		background-color:white;
+		font-size:40px;
+		color:hotpink;
+	}
+	.tb{
+			padding:20px 30px;
+		
+	}
+	.tb table,td, th{
+		border:0px solid black;
+		border-collapse:collapse;
+		width:100%;	
+		padding:20px;
+		
+	}
+	.tb table{
+		border-collapse:collapse;
+	}
+	.tb th,td {
+		text-align:left;
+	}
+	.tb td{
+		padding:5px 160px 2px 5px;
+		text-align:left;
+	}
+	.tb th{
+	}
+	.tb tr:nth-child(odd){
+		background-color:gray;
+	}
+	.tb tr:nth-child(even){
+		background-color:lightgray;
+	}
+	.tb td:hover{
+		background-color:gray;
+		font-size:20px;
+		cursor:help;
+	}
+	.thday2:hover{
+		font-size:25px;
+		background-color:lightgray;
+		cursor:w-resize;
+		padding:5px 15px;
+	}
